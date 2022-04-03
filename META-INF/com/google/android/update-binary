@@ -26,6 +26,12 @@ ui_printfile() {
     ui_print "$line";
   done < $1;
 }
+
+ui_print "×××××××××××××××××××××××××××××××××××××××××××××××"
+ui_print "×              Wolf Kernel Ginkgo              ×"
+ui_print "×××××××××××××××××××××××××××××××××××××××××××××××"
+ui_print " "
+ui_print "× Initializing parameters and properties"
 show_progress() { echo "progress $1 $2" >> $OUTFD; }
 file_getprop() { $BB grep "^$2=" "$1" | $BB cut -d= -f2-; }
 setup_mountpoint() {
