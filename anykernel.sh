@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Wolf Kernel by ZenitsuXD
+kernel.string=Miui Kernel by ZenitsuXD
 do.devicecheck=1
 do.modules=1
 do.systemless=0
